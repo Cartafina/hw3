@@ -1,0 +1,7 @@
+<h1>Create New Place</h1>
+
+<%= form_with model: @place do |form| %>
+    <%= form.label "Where have you been?" %>
+    <%= form.text_field "name" %>
+    <%= form.submit %>
+<% end %>
