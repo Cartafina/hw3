@@ -1,4 +1,4 @@
-<h1><%= @place.name %></h1>
+<ul><h1><%= @place.name %></h1></ul>
 <br>
 <ul>
     <% for post in @posts %>
@@ -10,9 +10,9 @@
 </ul>
 <br>
 <br>
-<p>
+<ul>
     <a href="/posts/new?place_id=<%= @place.id %>">New Post</a>
-</p>
+</ul>
 <br>
 <p>
     <a href="/places">Back to Places I've Been</a>
